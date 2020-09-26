@@ -1,6 +1,6 @@
 # AirBnB Clone - Web Dynamic
 
-![GitHub repo size](https://img.shields.io/github/repo-size/luismvargasg/AirBnB_clone_v4?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/luismvargasg/AirBnB_clone_v4?style=for-the-badge) ![GitHub contributors](https://img.shields.io/github/contributors/luismvargasg/AirBnB_clone_v4?style=for-the-badge) [![Luis Miguel Vargas](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fluismvargasg1)](https://twitter.com/luismvargasg1) [![Cristian Pineda](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FCristiand187)](https://twitter.com/Cristiand187)
+![GitHub repo size](https://img.shields.io/github/repo-size/cristiand187/AirBnB_clone_v4?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/cristiand187/AirBnB_clone_v4?style=for-the-badge) ![GitHub contributors](https://img.shields.io/github/contributors/cristiand187/AirBnB_clone_v4?style=for-the-badge) [![Luis Miguel Vargas](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fluismvargasg1)](https://twitter.com/luismvargasg1) [![Cristian Pineda](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FCristiand187)](https://twitter.com/Cristiand187)
 
 ## Project Description
 
