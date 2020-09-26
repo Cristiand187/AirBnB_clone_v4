@@ -1,5 +1,32 @@
-# AirBnB Clone - The Console
-The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB). A command interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
+# AirBnB Clone - Web Dynamic
+
+![GitHub repo size](https://img.shields.io/github/repo-size/luismvargasg/AirBnB_clone_v4?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/luismvargasg/AirBnB_clone_v4?style=for-the-badge) ![GitHub contributors](https://img.shields.io/github/contributors/luismvargasg/AirBnB_clone_v4?style=for-the-badge) [![Luis Miguel Vargas](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fluismvargasg1)](https://twitter.com/luismvargasg1) [![Cristian Pineda](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FCristiand187)](https://twitter.com/Cristiand187)
+
+## Project Description
+
+The Airbnb clone is one of the main projects at Holberton School, it's a long term project that we need to accomplish by building up trough a series of small modules or pieces. This project is thinking as a whole for a software developer, to learn and become a full-stack developer, gluing alltogether the infrastructure of the Airbnb from back to front, including databases, static and dynamic content, web frameworks, APIs, and web infrastructure.
+The first step that we need to build is "the console" or the command interpreter, this is meant to be a tool to validate or manipulate the storage system, through the console we are gonna be able of:
+* Create our data model.
+* Manage (create, update, destroy, etc) objects.
+* Store and persist objects to a file (JSON file).
+
+This storage engine will give us an abstraction between “My object” and “How they are stored and persisted”.
+
+You can find this in: [AirBnB clone - The console](https://github.com/luismvargasg/AirBnB_clone)
+
+For the second part of the project we should build the database connection through SQLAlchemy, the ORM of Python.
+
+Using a MySQL storage we replace the file storage (JSON file) by a Database storage and we map your models to a table in database by using an O.R.M.
+
+For the third part of the project we aim to connect the back-end through the implementation of a Rest API.
+
+Rest API is a software architectural style for Backend.
+
+Rest = “REpresentational State Transfer”. API = Application Programming Interface
+
+Its purpose is to induce performance, scalability, simplicity, modifiability, visibility, portability, and reliability.
+
+Rest API is Resource-based, a resource is an object and can be access by a URI. An object is “displayed”/transferred via a representation (typically JSON). HTTP methods will be actions on a resource.
 
 #### Functionalities of this command interpreter:
 * Create a new object (ex: a new User or a new Place)
@@ -8,15 +35,22 @@ The console is the first segment of the AirBnB project at Holberton School that 
 * Update attributes of an object
 * Destroy an object
 
-## Table of Content
-* [Environment](#environment)
-* [Installation](#installation)
-* [File Descriptions](#file-descriptions)
-* [Usage](#usage)
-* [Examples of use](#examples-of-use)
-* [Bugs](#bugs)
-* [Authors](#authors)
-* [License](#license)
+## Table of Contents
+
+- [AirBnB Clone - Web Dynamic](#airbnb-clone---web-dynamic)
+  - [Project Description](#project-description)
+      - [Functionalities of this command interpreter:](#functionalities-of-this-command-interpreter)
+  - [Table of Contents](#table-of-contents)
+  - [Environment](#environment)
+  - [Installation](#installation)
+  - [File Descriptions](#file-descriptions)
+      - [`models/` directory contains classes used for this project:](#models-directory-contains-classes-used-for-this-project)
+      - [`/models/engine` directory contains File Storage class that handles JASON serialization and deserialization :](#modelsengine-directory-contains-file-storage-class-that-handles-jason-serialization-and-deserialization-)
+      - [`/tests` directory contains all unit test cases for this project:](#tests-directory-contains-all-unit-test-cases-for-this-project)
+  - [Examples of use](#examples-of-use)
+  - [Bugs](#bugs)
+  - [Authors](#authors)
+  - [License](#license)
 
 ## Environment
 This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3)
@@ -158,7 +192,10 @@ Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twit
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
+Luis Vargas - [Github](https://github.com/luismvargasg) / [Twitter](https://twitter.com/luismvargasg1)
+Cristian Pineda - [Github](https://github.com/cristiand187) / [Twitter](https://twitter.com/Cristiand187)
 
 Second part of Airbnb: Joann Vuong
+
 ## License
 Public Domain. No copy write protection. 
